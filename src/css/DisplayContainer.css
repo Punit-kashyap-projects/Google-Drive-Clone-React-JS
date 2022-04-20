@@ -1,0 +1,64 @@
+#displayCont {
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+#displayInfoNav {
+  /* border: 1px solid green; */
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid silver;
+  /* justify-content: center; */
+  padding: 5px 10px;
+}
+
+#displayInfoNav p {
+  font-size: 20px;
+  /* border: 1px solid blue; */
+  width: 90%;
+}
+
+#displayInfoNav button {
+  background-color: transparent;
+  height: 40px;
+  border-radius: 50%;
+  width: 40px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+#displayInfoNav button:hover {
+  transition: 0.3s;
+  background-color: whitesmoke;
+}
+
+#displayInfoNav button img {
+  height: 20px;
+}
+
+#contentDisplayer {
+  /* border: 1px solid wheat; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: calc(100vh - 130px);
+  overflow-y: scroll;
+}
+
+.displayCard {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+    rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  margin: 10px;
+}
+
+.displayCard img {
+  height: 160px;
+}

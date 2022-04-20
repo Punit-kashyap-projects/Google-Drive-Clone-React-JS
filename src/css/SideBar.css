@@ -1,0 +1,140 @@
+#sideBar {
+  /* border: 1px solid red; */
+  height: calc(100vh - 115px);
+  width: 230px;
+  padding: 20px 10px;
+}
+
+#linkBtn {
+  background-color: transparent;
+  width: 140px;
+  display: flex;
+  border: none;
+  align-items: center;
+  cursor: pointer;
+  height: 50px;
+  border-radius: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  justify-content: center;
+}
+
+#linkBtn img {
+  height: 30px;
+}
+
+#linkBtn p {
+  color: black;
+  font-size: 15px;
+  padding: 10px;
+}
+
+#linkBtn:hover {
+  transition: 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+#sideBarOpt {
+  /* border: 1px solid green; */
+  margin: 15px 0px;
+  margin-left: -10px;
+  border-bottom: 1px solid silver;
+}
+
+.sideBarOptions {
+  /* border: 1px solid cyan; */
+  display: flex;
+  border-radius: 0 30px 30px 0;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.sideBarOptions:hover {
+  transition: 0.3s;
+  background-color: whitesmoke;
+}
+
+.sideBarOptions img {
+  height: 20px;
+  padding: 0 5px;
+}
+
+.sideBarOptions h3 {
+  color: #503e3e;
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.activeSideOpt {
+  background-color: rgb(227, 239, 255);
+}
+
+.activeSideOpt h3 {
+  color: blue;
+  font-weight: bold;
+}
+
+#storageInfo {
+  /* border: 1px solid blue; */
+  margin: 15px 0px;
+  margin-left: -10px;
+}
+
+#storageLoader {
+  /* border: 1px solid violet; */
+  width: 200px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 30px;
+  height: 100%;
+}
+
+#preLoader {
+  /* border: 1px solid blue; */
+  width: 60%;
+  height: 3px;
+  border-radius: 30px;
+  background-color: dodgerblue;
+}
+
+#storageNumericalInfo p {
+  color: grey;
+  font-size: 14px;
+  text-align: center;
+}
+
+#buyStorage{
+    display: block;
+    background: transparent;
+    font-size: 14px;
+    border-radius: 5px;
+    color: #2d2aff;
+    cursor: pointer;
+    width: 60%;
+    margin: 15px auto;
+    border: 1px solid silver;
+    padding: 10px;
+}
+
+#buyStorage:hover{
+    transition: .3s;
+    background: rgb(239, 239, 255);
+}
+
+#sponsor{
+    /* border: 1px solid yellowgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+#sponsor img{
+    height: 20px;
+    padding: 0 10px;
+}
+
+#sponsor p{
+    color: grey;
+}
